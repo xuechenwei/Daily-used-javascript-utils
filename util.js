@@ -38,8 +38,8 @@ function addURLParam(url, key, value) {
  * @return {[String]}      序列化后的字符串
  */
 function serialize(formId) {
-    var form = document.getElementById(formId)
-    parts = [],
+    var form = document.getElementById(formId),
+        parts = [],
         field = null,
         i,
         len,
